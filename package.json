@@ -1,0 +1,25 @@
+{
+  "name": "jquery.draglessclick",
+  "version": "1.0.0",
+  "description": "Better jQuery click event that's not invoked when you drag or select text",
+  "main": "draglessClick.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcubic/jquery.draglessClick.git"
+  },
+  "keywords": [
+    "event",
+    "jquery",
+    "drag",
+    "select",
+    "click"
+  ],
+  "author": "Jakub Jankiewicz <jcubic@onet.pl> (http://jcubic.pl/jakub-jankiewicz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcubic/jquery.draglessClick/issues"
+  },
+  "homepage": "https://github.com/jcubic/jquery.draglessClick#readme"
+}

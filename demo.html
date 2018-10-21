@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./draglessClick.js"></script>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit aspernatur alias
+      doloremque dicta vero temporibus facilis consequuntur. Quidem, delectus ea facere natus animi
+      nostrum exercitationem distinctio adipisci. Ex, illum?</p>
+    <pre></pre>
+    <script>
+     $(function() {
+         $('p').on('click', function handler(e) {
+             e = $.extend({}, e);
+             [
+                 'currentTarget',
+                 'target',
+                 'originalEvent',
+                 'delegateTarget',
+                 'view'
+             ].forEach(function(key) {
+                 // get rid of circularity for JSON.stringify
+                 e[key] = e[key].toString();
+             });
+             $('pre').html(JSON.stringify(e, true, 2));
+         });
+     });
+    </script>
+  </body>
+</html>
