@@ -7,7 +7,7 @@ Better jQuery click event that's not invoked when you drag or select text
 $(function() {
     $('p').on('draglessClick', function handler(e) {
         // e is real click event from browser
-        alert('You really click this item');
+        alert("You've really clicked this item");
         $(this).off('draglessClick', handler);
     });
     $('.container').on('draglessClick', 'ul li', function() {
