@@ -1,5 +1,9 @@
 # jquery.draglessClick
+
 Better jQuery click event that's not invoked when you drag or select text
+
+[![npm](https://img.shields.io/badge/npm-1.0.0-blue.svg)](https://www.npmjs.com/package/jquery-dragless-click)
+![bower](https://img.shields.io/badge/bower-1.0.0-yellow.svg)
 
 ## Usage:
 
@@ -17,6 +21,8 @@ $(function() {
 ```
 
 `draglessClick` event use mousedown, mouseup and click events added to element and mousemove added to windows object.
+
+NOTE: names of the events in jQuery are case sensitive so draglessclick will not work.
 
 ## Demo
 

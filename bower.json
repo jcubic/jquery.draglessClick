@@ -1,5 +1,5 @@
 {
-  "name": "jquery.draglessClick",
+  "name": "jquery-dragless-click",
   "description": "Better jQuery click event that's not invoked when you drag or select text",
   "main": "draglessClick.js",
   "authors": [
