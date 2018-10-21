@@ -31,4 +31,5 @@ https://codepen.io/jcubic/pen/QZxRLd
 ## License
 
 Released under [MIT](https://github.com/jcubic/jquery.draglessClick/blob/master/LICENSE) license
+
 Copyright (c) 2018 [Jakub Jankiewicz](https://jcubic.pl/me)
