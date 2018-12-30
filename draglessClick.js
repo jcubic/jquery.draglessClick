@@ -1,7 +1,7 @@
 /**
  * Better jQuery click event that's not invoked when you drag or select text
  *
- * Copyright (C) 2018 Jakub Jankiewicz <https://jcubic.pl/me>
+ * Copyright (C) 2018 Jakub T. Jankiewicz <https://jcubic.pl/me>
  * Released under MIT license
  *
  * solution based on this SO question
